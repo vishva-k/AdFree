@@ -1,0 +1,19 @@
+{
+    "name": "AdFree",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "description": "Block ads on the web",
+    "permissions": [
+        "declarativeNetRequest",
+        "storage"
+    ],
+    "declarative_net_request": {
+        "rule_resources": [
+            {
+                "id": "ruleset_1",
+                "enabled": true,
+                "path": "rules.json"
+            }
+        ]
+    }
+}
